@@ -146,5 +146,6 @@ Test('(960) Asserting that the position of rank 1 (white) is equal to the positi
 Test('(960) Asserting that both bishops in rank 8 (black) are on different colors', chess960BishopsAlternate);
 Test('(960) Asserting that the king is positioned between the two rooks', chess960KingBetweenRooks);
 
-console.log(`\n\nTotal Passed: ${passed}`);
+console.log(`Total Passed: ${passed}`);
 console.log(`Total Failed: ${failed}`);
+console.log(`Score: ${(100 / (passed + failed)) * passed}%`);
